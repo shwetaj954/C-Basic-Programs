@@ -1,0 +1,73 @@
+//Exercise 1-1. Run the ``hello, world'' program on your system. Experiment with leaving out parts of the program. 
+#include <stdio.h>
+
+int main() {
+
+   /* printf("Hello, world Shweta");    //first matherd
+   */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   /*
+   printf("Hello,");
+   printf("world");    //Second matherd
+   */
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   /*
+    printf("Hello,World\"Shweta\"");    //Third Matherd
+   */
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   /*
+   for(;printf("Hello World");)break;   //Fourth Matherd
+   */
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   /*
+     void fun(void){
+       printf("Hello World");
+   }
+    fun();          //Fivth Matherd
+   */
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   /*
+    #define a "Hello World"
+    printf("%s",a);         //Sixth Matherd
+   */
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  /*
+  if(1){
+      printf("Hello World");  //Seven Matherd
+  }
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  /*
+  if(1<<0){
+      printf("Hello World"); //Eigth Matherd
+  }
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  /*
+  switch(1<<0){
+      case 1:
+      printf("Hello World");  //Nine Matherd
+  }
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  /* 
+  char a[15]={"Hello World"};
+  printf("%s",a);             //Ten Matherd
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  /*
+  char a[][15]={"Hello","World"};
+  printf("%s %s",a,a[1]);         //Eleven Matherd
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  /*
+  char a[][15]={'H','e','l','l','o',' ','W','o','r','l','d'};
+  printf("%s",a);                 //Twelve Matherd
+  */
+   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  
+
+    return 0;
+}
